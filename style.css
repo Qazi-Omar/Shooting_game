@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#game {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background-color: #2b2b2b;
+    margin: auto;
+    overflow: hidden;
+    border: 2px solid #000;
+}
+
+#player {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.bullet {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.enemy {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+}
+
+#scoreboard {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+}
+
+#instructions {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
